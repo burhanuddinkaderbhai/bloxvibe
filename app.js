@@ -6,7 +6,7 @@
   4) Put your project URL + anon key below.
 */
 const SUPABASE_URL = "https://onhkzocbtygqtqgkeywn.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9uaGt6b2NidHlncXRxZ2tleXduIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg4ODQ2NjcsImV4cCI6MjEwNDQ2MDY2N30.GlhY1egdEIqXqQkdrWv303kFMwgJBbp-wX-sbsBvfuk";
+const SUPABASE_ANON_KEY = "sb_publishable_iBojM-bbeSyRv8BsGFIkxQ_G0LdbZ0l";
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 let me=null, currentUser=null, authMode="login", usersCache=[], rtc=null, localStream=null, callChannel=null;
