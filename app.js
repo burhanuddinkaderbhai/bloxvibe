@@ -2,8 +2,8 @@
    Profiles, posts, picture+caption uploads, DMs, realtime messages,
    automatic profiles, notifications and WebRTC audio/video calls.
 */
-const SUPABASE_URL = "https://onhkzocbtygqtqgkeywn.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_iBojM-bbeSyRV8BSGFIkxQ_GOLdbz01";
+const SUPABASE_URL = "https://nfcstwripuquahzqrgnc.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_eOxySc1Mmb8eQg_r529gMw_SuWVty1n";
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 const MAX_IMAGE_BYTES = 8 * 1024 * 1024;
